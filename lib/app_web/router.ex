@@ -18,7 +18,7 @@ defmodule AppWeb.Router do
 
     get "/", PageController, :index
     get "/app", AppController, :index
-    get "/app:messenger", AppController, :index
+    get "/app/:messenger", AppController, :index
   end
 
   # Other scopes may use custom stacks.
